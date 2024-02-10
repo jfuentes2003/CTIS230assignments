@@ -1,42 +1,42 @@
 body {
-    background-color: #bc8e0e; /* Set the background color */
+    background-color: #b7b5b2; /* Set the background color */
     margin: 0 10%;
     font-family: sans-serif;
 }
-/*Step #5*/
+/*Step #5 changte the color when hover over the buttons*/
 a:hover {  
     color:rgb(120, 6, 6);  
 }
 
-
+/*This is the title of the page*/
 h1 {
     text-align: center;
-    font-family: serif;
-    font-weight: normal;
     text-transform: uppercase;
     border-bottom: 1px solid #0f0f0f;
     margin-top: 30px;
+    font-family:serif;    
+
    
 
 }
-
+/*h2 was used for the names of the songs*/
 h2 {
     color: #6b4f09;
-    font-size: 1em;
-    
+    font-size: 1.7em;
+    font-family:serif;   
+    font-weight:normal;
+ 
 
 }
 
 p {
-    color: rgb(0, 0, 0); /* Change the color of the paragraphs */
-    font-size:1.5em;  /*change the size of the p (paragraph)*/
+    color: rgb(5, 5, 5); /* Change the color of the paragraphs */
+    font-size: 1.3em;
+    font-family:serif;  /*This serif is for Net Times Roman*/
+
     /*font-style:italic; /*Add italic to the text*/
-    font-family:serif;/*This serif is for Net Times Roman*/
     /*font-family:sans-serif;/*This serif is for Arial*/
     /*font-family:Cambria,Georgia,"Book Antiqua",serif*/
-
-
-
 
 }
 
@@ -44,13 +44,13 @@ hr {
     border-color: #420404; /* Change the color of the horizontal rule */
   
 }
-
+/*This are the names of the authors/background color on the letters*/
 h4 {
     color: #312402;
     font-size: 1em;
     text-align: center;
-    background-color: seashell; 
+    background-color: rgb(219, 203, 191); 
     width: fit-content;
- 
+    font-style:italic
 
 }
