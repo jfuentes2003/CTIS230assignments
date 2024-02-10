@@ -1,13 +1,56 @@
-body {  
-    color:rgb(27, 26, 25);  
+body {
+    background-color: #bc8e0e; /* Set the background color */
+    margin: 0 10%;
+    font-family: sans-serif;
+}
+/*Step #5*/
+a:hover {  
+    color:rgb(120, 6, 6);  
+}
+
+
+h1 {
+    text-align: center;
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid #0f0f0f;
+    margin-top: 30px;
+   
+
+}
+
+h2 {
+    color: #6b4f09;
+    font-size: 1em;
     
-    h2 {  
-        color:rgba(118, 71, 6, 0.733);  
-    }
-    h1 {  
-        color:rgba(76, 54, 5, 0.753);  
-    }
-    h4 {  
-        color:rgba(63, 8, 4, 0.733);  
-    }
+
+}
+
+p {
+    color: rgb(0, 0, 0); /* Change the color of the paragraphs */
+    font-size:1.5em;  /*change the size of the p (paragraph)*/
+    /*font-style:italic; /*Add italic to the text*/
+    font-family:serif;/*This serif is for Net Times Roman*/
+    /*font-family:sans-serif;/*This serif is for Arial*/
+    /*font-family:Cambria,Georgia,"Book Antiqua",serif*/
+
+
+
+
+}
+
+hr {
+    border-color: #420404; /* Change the color of the horizontal rule */
+  
+}
+
+h4 {
+    color: #312402;
+    font-size: 1em;
+    text-align: center;
+    background-color: seashell; 
+    width: fit-content;
+ 
+
 }

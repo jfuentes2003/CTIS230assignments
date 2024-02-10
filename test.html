@@ -1,41 +1,111 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="myStyle.css">
+
+    <meta charset="utf-8">
+
+
+   <title>Artists</title>
+
+   </head>
+
+   <body>
+
     <style>
-        ul {
-            list-style-type: none;
+        body {
+            background-color: #a7914f;
+            margin: 0 10%;
+            font-family: sans-serif;
+        }
+
+        h1 {
             text-align: center;
-            padding: 0;
+            font-family: serif;
+            font-weight: normal;
+            text-transform: uppercase;
+            border-bottom: 1px solid #f5f5f5;
+            margin-top: 30px;
         }
 
-        li {
-            display: inline-block;
-            margin: 0 10px; /* Adjust the margin as needed */
+        .person-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 10px;
+        }
+       
+        
+
+        img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 10px; /* Added margin to separate image and name */
         }
 
-        a {
-            text-decoration: none;
-            padding: 10px;
-            border: 2px solid #3498db; /* Border color for button appearance */
-            background-color: #3498db; /* Background color for button appearance */
-            color: #fff; /* Text color for button appearance */
-            border-radius: 5px; /* Add rounded corners */
-            transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+        h4 {
+            color: #ffffff;
+            font-size: 1em;
+            text-align: center;
         }
 
-        a:hover {
-            background-color: #2980b9; /* Change background color on hover */
+        hr {
+            border-color: #ffffff;
         }
-    </style>
-    <title>Your Page Title</title>
-</head>
-<body>
+   
+   
+</style>
 
-<ul>
-    <li><a href="instruments.html">Instruments Used</a></li>
-    <li><a href="FuentesAssignment3.html">Music Analysis</a></li>
-</ul>
 
+
+    <center>
+        <h1>Artists</h1>
+    </center>
+
+    <div class="person-container">
+        <img src="george.jpg" alt="George David" width="100">
+        <h4>George David</h4>
+    </div>
+
+    <div class="person-container">
+        <img src="bob.jpg" alt="Bob Thiele" width="50">
+        <h4>Bob Thiele</h4>
+    </div>
+
+    <div class="person-container">
+        <img src="oliver.jpg" alt="King Oliver" width="50">
+        <h4>King Oliver</h4>
+    </div>
+
+    <div class="person-container">
+        <img src="willie.jpg" alt="Willie Cornish " width="50">
+        <h4>Willie Cornish</h4>
+    </div>
+
+    <div class="person-container">
+        <img src="lil.jpg" alt="Lil Hardin" width="50">
+        <h4>Lil Hardin</h4>
+    </div>
+
+    <center>
+        <a href="instruments.html">Instruments Used</a>
+        
+        <a href="FuentesAssignment3.html">Music Analysis</a>
+        
+        </center>
+    
 </body>
+
 </html>
+
+
+h1 {
+    text-align: center;
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid #f5f5f5;
+    margin-top: 30px;
+}
