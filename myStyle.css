@@ -1,56 +1,152 @@
+/* Common styles */
 body {
-    background-color: #b7b5b2; /* Set the background color */
+    background-color: #aba296;
     margin: 0 10%;
     font-family: sans-serif;
 }
-/*Step #5 changte the color when hover over the buttons*/
-a:hover {  
-    color:rgb(120, 6, 6);  
+
+a:link {
+    color: rgb(237, 222, 7);
 }
 
-/*This is the title of the page*/
+a :hover {
+    color: rgb(167, 29, 29);
+}
+
+a:visited {
+    color: rgb(48, 30, 4);
+}
+
+a:active {
+    color: rgb(176, 108, 5);
+}
+
+a {
+    border: 2px solid #181713;
+    font-size: 1.7em;
+}
+
 h1 {
     text-align: center;
     text-transform: uppercase;
     border-bottom: 1px solid #0f0f0f;
     margin-top: 30px;
-    font-family:serif;    
-
-   
-
+    font-family: serif;
+    border: 2px solid #6b4f09; /* Optional: Border styling */
 }
-/*h2 was used for the names of the songs*/
-h2 {
+
+h2.song-title {
     color: #6b4f09;
     font-size: 1.7em;
-    font-family:serif;   
-    font-weight:normal;
- 
-
+    font-family: serif;
+    font-weight: normal;
 }
 
-p {
-    color: rgb(5, 5, 5); /* Change the color of the paragraphs */
+p.song-description {
+    color: rgb(5, 5, 5);
     font-size: 1.3em;
-    font-family:serif;  /*This serif is for Net Times Roman*/
-
-    /*font-style:italic; /*Add italic to the text*/
-    /*font-family:sans-serif;/*This serif is for Arial*/
-    /*font-family:Cambria,Georgia,"Book Antiqua",serif*/
-
+    font-family: serif;
 }
 
-hr {
-    border-color: #420404; /* Change the color of the horizontal rule */
-  
-}
-/*This are the names of the authors/background color on the letters*/
-h4 {
+h4.song-authors {
     color: #312402;
     font-size: 1em;
     text-align: center;
-    background-color: rgb(219, 203, 191); 
+    background-color: rgb(219, 203, 191);
     width: fit-content;
-    font-style:italic
+    font-style: italic;
+}
 
+/* Optional: Border styling */
+h1 {
+    border: 2px solid #382202df;
+}
+
+img#img200 {
+    width: 20%;
+    border: 1px solid #403e3c;
+    float: center;/* Floating the image to the center*/
+    margin: 0 0 10px 10px; /* Adjust margins as needed */
+}
+img#img1100 {
+    width: 40%;
+    border: 1px solid #e5f507;
+    float: center;/* Floating the image to the center*/
+    margin: 0 0 10px 10px; /* Adjust margins as needed */
+}
+
+
+/* Flexbox for the header and footer */
+header,
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    max-width: 100%;
+}
+
+/* Specific styles from second CSS file */
+hr {
+    border-color: #420404;
+}
+
+/* Assignemt 5 stuffs */
+h1,
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+h1 strong {
+    color: darkkhaki;
+}
+
+/* General styles for block elements */
+p,
+h1 {
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Change the width of elements */
+h1 {
+    width: 80%;
+}
+
+p {
+    width: 90%;
+}
+
+/* Add padding to elements */
+h1 {
+    padding: 20px;
+}
+
+p {
+    padding: 15px;
+}
+
+/* Set margins for elements */
+h1 {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Set margins for body element */
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Styling for the div surrounding paragraphs */
+div.paragraph-container {
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
