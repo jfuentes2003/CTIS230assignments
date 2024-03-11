@@ -64,13 +64,13 @@ h1 {
 
 img#img200 {
     width: 20%;
-    border: 1px solid #403e3c;
+    border: 1px solid #412203;
     float: center;/* Floating the image to the center*/
     margin: 0 0 10px 10px; /* Adjust margins as needed */
 }
 img#img1100 {
     width: 40%;
-    border: 1px solid #e5f507;
+    border: 1px solid #412203;
     float: center;/* Floating the image to the center*/
     margin: 0 0 10px 10px; /* Adjust margins as needed */
 }
