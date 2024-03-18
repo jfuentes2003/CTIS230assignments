@@ -1,21 +1,25 @@
 
-// Step#1
-var buttontestElement = document.getElementById("buttontest");
-var autorstitlesElement = document.getElementById("autorstitles");
+//The on click function//
+var firsttestElement = document.getElementById("firsttest");
+var isBlue = false;
 
-buttontestElement.addEventListener("mouseover", onMouseOverButtontest);
-buttontestElement.addEventListener("mouseout", onMouseOutButtontest);
+firsttestElement.addEventListener("click", onClick);
+
+function onClick() {  
+    if (isBlue) {
+        firsttestElement.style.color = "";
+    } else {
+        firsttestElement.style.color = "blue";
+    }
+    isBlue = !isBlue; // Toggle the flag
+}
+
+
+//autorstitles id//
+var autorstitlesElement = document.getElementById("autorstitles");
 
 autorstitlesElement.addEventListener("mouseover", onMouseOverAutorstitles);
 autorstitlesElement.addEventListener("mouseout", onMouseOutAutorstitles);
-
-function onMouseOverButtontest() {  
-    buttontestElement.style.color = "blue"; 
-}
-
-function onMouseOutButtontest() {
-    buttontestElement.style.color = "";
-}
 
 function onMouseOverAutorstitles() {  
     autorstitlesElement.style.color = "green"; 
@@ -24,6 +28,11 @@ function onMouseOverAutorstitles() {
 function onMouseOutAutorstitles() {
     autorstitlesElement.style.color = "";
 }
+//testttt
+var changecolorElement = document.getElementById("changecolor");
+
+
+
 
 // Step#5 Optional
 var colorChangeButton = document.getElementById("colorChangeButton");
@@ -43,7 +52,7 @@ function getRandomColor() {
 // Step#2
 // Get elements
 let thebutton = document.getElementById("thebutton");
-let otheritem = document.getElementById("buttontest");
+let otheritem = document.getElementById("firsttest");
 
 // Add event listener to the button
 thebutton.addEventListener("click", onButtonClick);
@@ -55,10 +64,10 @@ function onButtonClick() {
 
 
 
-// This is the text entry step#3
+// This is the text entry step (it changes the tile name)#3
 
 let textentry = document.getElementById("myinput");
-textentry.addEventListener("change", onChange);
+textentry.addEventListener("changecolor", onChange);
 
 function onChange() {
     let newtext = textentry.value;
