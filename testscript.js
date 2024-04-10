@@ -73,3 +73,24 @@ function onChange() {
     let newtext = textentry.value;
     otheritem.innerHTML = newtext;
 }
+
+//The thumbnail 
+
+// Get the thumbnail image element
+const thumbnailImage = document.getElementById('thumbnail-image');
+
+// Add a click event listener to the thumbnail image
+thumbnailImage.addEventListener('click', function() {
+  // Toggle the image size
+  if (thumbnailImage.classList.contains('expanded')) {
+    // Shrink the image back to thumbnail size
+    thumbnailImage.classList.remove('expanded');
+    thumbnailImage.style.width = '200px';
+    thumbnailImage.style.height = 'auto';
+  } else {
+    // Expand the image to a larger size
+    thumbnailImage.classList.add('expanded');
+    thumbnailImage.style.width = '80%';
+    thumbnailImage.style.height = 'auto';
+  }
+});

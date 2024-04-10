@@ -150,3 +150,24 @@ div.paragraph-container {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+/*things for the thumbnail*/
+.thumbnail {
+    width: 200px;
+    height: auto;
+  }
+  
+  .thumbnail.expanded {
+    width: 80%;
+    height: auto;
+  }
+  
+  @media (max-width: 767px) {
+    .thumbnail {
+      width: 150px;
+    }
+  
+    .thumbnail.expanded {
+      width: 90%;
+    }
+  }
